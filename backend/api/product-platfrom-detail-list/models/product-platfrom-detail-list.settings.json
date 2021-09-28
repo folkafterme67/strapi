@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_platfrom_detail_lists",
+  "info": {
+    "name": "product_platfrom_detail_list"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_platfrom_detail_liat": {
+      "type": "string",
+      "required": true
+    },
+    "product_platfrom_detail_list_en": {
+      "type": "string",
+      "required": true
+    },
+    "product_platfrom_detail_list_icon": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

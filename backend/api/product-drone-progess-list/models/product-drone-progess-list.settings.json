@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_drone_progess_lists",
+  "info": {
+    "name": "product_drone_progess_list"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_drone_progess_list": {
+      "type": "string",
+      "required": true
+    },
+    "product_drone_progess_list_en": {
+      "type": "string"
+    }
+  }
+}

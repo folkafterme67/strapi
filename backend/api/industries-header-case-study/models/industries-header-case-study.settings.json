@@ -1,0 +1,155 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industries_header_case_studies",
+  "info": {
+    "name": "industries_header_case_study"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "industries_case_study_header": {
+      "type": "string",
+      "required": true
+    },
+    "industries_case_study_header_en": {
+      "type": "string"
+    },
+    "industries_case_study_project": {
+      "type": "string",
+      "required": true
+    },
+    "industries_case_study_project_en": {
+      "type": "string",
+      "required": true
+    },
+    "industries_case_study_detail": {
+      "type": "text",
+      "required": true
+    },
+    "industries_case_study_detail_en": {
+      "type": "text",
+      "required": true
+    },
+    "industries_case_study_header2": {
+      "type": "string",
+      "required": true
+    },
+    "industries_case_study_header2_en": {
+      "type": "string",
+      "required": true
+    },
+    "industries_case_study_header2_list": {
+      "type": "string",
+      "required": true
+    },
+    "industries_case_study_header2_list_en": {
+      "type": "string"
+    },
+    "industries_case_study_header2_list2": {
+      "type": "string",
+      "required": true
+    },
+    "industries_case_study_header2_list2_en": {
+      "type": "string"
+    },
+    "industries_case_study_header3": {
+      "type": "string"
+    },
+    "industries_case_study_header3_en": {
+      "type": "string"
+    },
+    "industries_case_study_header3_list": {
+      "type": "string"
+    },
+    "industries_case_study_header3_list_en": {
+      "type": "string"
+    },
+    "industries_case_study_header3_list2": {
+      "type": "string"
+    },
+    "industries_case_study_header3_list2_en": {
+      "type": "string"
+    },
+    "industries_case_study_video": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "industries_case_study_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "industries_case_study_image2": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "industries_case_study_image3": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "industries_case_study_image4": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "industries_case_study_image5": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "industries_case_study_image6": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

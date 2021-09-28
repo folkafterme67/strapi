@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_drone_progess_images",
+  "info": {
+    "name": "product_drone_progess_image"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "progess_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

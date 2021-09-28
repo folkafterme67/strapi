@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_futures",
+  "info": {
+    "name": "home_content_future",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "future_header": {
+      "type": "string",
+      "required": true
+    },
+    "future_header_en": {
+      "type": "string",
+      "required": true
+    },
+    "feture_content": {
+      "type": "text",
+      "required": true
+    },
+    "future_content_en": {
+      "type": "text",
+      "required": true
+    },
+    "future_svg": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

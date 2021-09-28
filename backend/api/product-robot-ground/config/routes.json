@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-robot-grounds",
+      "handler": "product-robot-ground.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-robot-grounds/count",
+      "handler": "product-robot-ground.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-robot-grounds/:id",
+      "handler": "product-robot-ground.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/product-robot-grounds",
+      "handler": "product-robot-ground.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-robot-grounds/:id",
+      "handler": "product-robot-ground.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-robot-grounds/:id",
+      "handler": "product-robot-ground.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_drone_service_lists",
+  "info": {
+    "name": "product_drone_service_list"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_drone_service_list": {
+      "type": "string",
+      "required": true
+    },
+    "product_drone_service_list_en": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

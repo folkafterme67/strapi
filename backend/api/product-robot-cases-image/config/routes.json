@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-robot-cases-images",
+      "handler": "product-robot-cases-image.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-robot-cases-images/count",
+      "handler": "product-robot-cases-image.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-robot-cases-images/:id",
+      "handler": "product-robot-cases-image.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/product-robot-cases-images",
+      "handler": "product-robot-cases-image.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-robot-cases-images/:id",
+      "handler": "product-robot-cases-image.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-robot-cases-images/:id",
+      "handler": "product-robot-cases-image.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

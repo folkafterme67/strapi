@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "product_robot_manipulators",
+  "info": {
+    "name": "product_robot_manipulator"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_robot_manipulator_header": {
+      "type": "string",
+      "required": true
+    },
+    "product_robot_manipulator_header_en": {
+      "type": "string",
+      "required": true
+    },
+    "product_robot_manipulator_detail": {
+      "type": "text",
+      "required": true
+    },
+    "manipulator_detail_en": {
+      "type": "text",
+      "required": true
+    },
+    "product_robot_manipulator_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

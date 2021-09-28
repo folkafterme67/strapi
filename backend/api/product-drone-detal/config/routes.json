@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-drone-detal",
+      "handler": "product-drone-detal.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-drone-detal",
+      "handler": "product-drone-detal.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-drone-detal",
+      "handler": "product-drone-detal.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

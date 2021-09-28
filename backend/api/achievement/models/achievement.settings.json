@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "achievements",
+  "info": {
+    "name": "home_achievement",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "conut_achievement": {
+      "type": "biginteger",
+      "required": true
+    },
+    "achievement": {
+      "type": "string",
+      "required": true
+    },
+    "achievement_en": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

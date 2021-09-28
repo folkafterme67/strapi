@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "product_drone_headers",
+  "info": {
+    "name": "product_drone_header"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_drone_header": {
+      "type": "string",
+      "required": true
+    },
+    "product_drone_header_en": {
+      "type": "text",
+      "required": true
+    },
+    "product_drone_header_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

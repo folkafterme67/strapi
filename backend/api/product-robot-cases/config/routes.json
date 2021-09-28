@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-robot-cases",
+      "handler": "product-robot-cases.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-robot-cases",
+      "handler": "product-robot-cases.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-robot-cases",
+      "handler": "product-robot-cases.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-platfrom-detail-images",
+      "handler": "product-platfrom-detail-image.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-platfrom-detail-images/count",
+      "handler": "product-platfrom-detail-image.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-platfrom-detail-images/:id",
+      "handler": "product-platfrom-detail-image.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/product-platfrom-detail-images",
+      "handler": "product-platfrom-detail-image.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-platfrom-detail-images/:id",
+      "handler": "product-platfrom-detail-image.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-platfrom-detail-images/:id",
+      "handler": "product-platfrom-detail-image.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "product_platfrom_service_images",
+  "info": {
+    "name": "product_platfrom_service_image"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_platfrom_service_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

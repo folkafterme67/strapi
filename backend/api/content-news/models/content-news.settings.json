@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_news",
+  "info": {
+    "name": "content_news",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headlines": {
+      "type": "string",
+      "required": true
+    },
+    "headlines_en": {
+      "type": "string",
+      "required": true
+    },
+    "content_news": {
+      "type": "text",
+      "required": true
+    },
+    "content_news_en": {
+      "type": "text",
+      "required": true
+    },
+    "create_date": {
+      "type": "datetime",
+      "required": true
+    },
+    "new_news": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "news_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

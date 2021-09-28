@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-robot-aerials",
+      "handler": "product-robot-aerial.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-robot-aerials/count",
+      "handler": "product-robot-aerial.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-robot-aerials/:id",
+      "handler": "product-robot-aerial.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/product-robot-aerials",
+      "handler": "product-robot-aerial.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-robot-aerials/:id",
+      "handler": "product-robot-aerial.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-robot-aerials/:id",
+      "handler": "product-robot-aerial.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_drone_progesses",
+  "info": {
+    "name": "product_drone_progess"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_drone_progess_header": {
+      "type": "string",
+      "required": true
+    },
+    "product_drone_progess_header_en": {
+      "type": "string",
+      "required": true
+    },
+    "product_drone_progess_project": {
+      "type": "string",
+      "required": true
+    },
+    "product_drone_progess_project_en": {
+      "type": "string",
+      "required": true
+    },
+    "product_drone_progess_year": {
+      "type": "biginteger",
+      "required": true
+    },
+    "product_drone_progess_detail": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

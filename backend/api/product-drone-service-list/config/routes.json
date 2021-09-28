@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-drone-service-lists",
+      "handler": "product-drone-service-list.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-drone-service-lists/count",
+      "handler": "product-drone-service-list.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-drone-service-lists/:id",
+      "handler": "product-drone-service-list.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/product-drone-service-lists",
+      "handler": "product-drone-service-list.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-drone-service-lists/:id",
+      "handler": "product-drone-service-list.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-drone-service-lists/:id",
+      "handler": "product-drone-service-list.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-drone-progess-images",
+      "handler": "product-drone-progess-image.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-drone-progess-images/count",
+      "handler": "product-drone-progess-image.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-drone-progess-images/:id",
+      "handler": "product-drone-progess-image.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/product-drone-progess-images",
+      "handler": "product-drone-progess-image.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-drone-progess-images/:id",
+      "handler": "product-drone-progess-image.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-drone-progess-images/:id",
+      "handler": "product-drone-progess-image.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

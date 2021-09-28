@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-platfrom-service-image",
+      "handler": "product-platfrom-service-image.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-platfrom-service-image",
+      "handler": "product-platfrom-service-image.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-platfrom-service-image",
+      "handler": "product-platfrom-service-image.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

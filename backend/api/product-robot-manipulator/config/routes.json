@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-robot-manipulator",
+      "handler": "product-robot-manipulator.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-robot-manipulator",
+      "handler": "product-robot-manipulator.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-robot-manipulator",
+      "handler": "product-robot-manipulator.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

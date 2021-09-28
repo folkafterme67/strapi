@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-platfrom-service-lists",
+      "handler": "product-platfrom-service-list.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-platfrom-service-lists/count",
+      "handler": "product-platfrom-service-list.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-platfrom-service-lists/:id",
+      "handler": "product-platfrom-service-list.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/product-platfrom-service-lists",
+      "handler": "product-platfrom-service-list.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-platfrom-service-lists/:id",
+      "handler": "product-platfrom-service-list.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-platfrom-service-lists/:id",
+      "handler": "product-platfrom-service-list.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

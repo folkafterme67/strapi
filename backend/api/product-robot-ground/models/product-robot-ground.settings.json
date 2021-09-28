@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_robot_grounds",
+  "info": {
+    "name": "product_robot_ground"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_robot_name": {
+      "type": "string",
+      "required": true
+    },
+    "product_robot_name_en": {
+      "type": "string"
+    },
+    "product_robot_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

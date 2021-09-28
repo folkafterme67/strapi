@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-robot-iots",
+      "handler": "product-robot-iot.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-robot-iots/count",
+      "handler": "product-robot-iot.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-robot-iots/:id",
+      "handler": "product-robot-iot.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/product-robot-iots",
+      "handler": "product-robot-iot.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-robot-iots/:id",
+      "handler": "product-robot-iot.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-robot-iots/:id",
+      "handler": "product-robot-iot.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_robot_aerials",
+  "info": {
+    "name": "product_robot_aerial"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_robot_name": {
+      "type": "string",
+      "required": true
+    },
+    "product_robot_name_en": {
+      "type": "string",
+      "required": true
+    },
+    "product_robot_image": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

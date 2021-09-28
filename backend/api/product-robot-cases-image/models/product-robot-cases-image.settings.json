@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_robot_cases_images",
+  "info": {
+    "name": "product_robot_cases_image"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_robot_cases_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

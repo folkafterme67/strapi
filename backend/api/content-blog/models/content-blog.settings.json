@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_blogs",
+  "info": {
+    "name": "content_blog",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "blog_topic": {
+      "type": "string",
+      "required": true
+    },
+    "blog_topic_en": {
+      "type": "string",
+      "required": true
+    },
+    "content_blog": {
+      "type": "text",
+      "required": true
+    },
+    "content_blog_en": {
+      "type": "text",
+      "required": true
+    },
+    "create_date": {
+      "type": "datetime",
+      "required": true
+    },
+    "blog_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "new_blog": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

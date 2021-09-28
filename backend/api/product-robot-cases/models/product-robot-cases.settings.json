@@ -1,0 +1,91 @@
+{
+  "kind": "singleType",
+  "collectionName": "product_robot_cases",
+  "info": {
+    "name": "product_robot_cases"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_robot_cases_header": {
+      "type": "string",
+      "required": true
+    },
+    "product_robot_cases_header_en": {
+      "type": "string",
+      "required": true
+    },
+    "product_robot_cases_project": {
+      "type": "string",
+      "required": true
+    },
+    "product_robot_cases_project_en": {
+      "type": "string",
+      "required": true
+    },
+    "product_robot_cases_year": {
+      "type": "biginteger",
+      "required": true
+    },
+    "product_robot_cases_content": {
+      "type": "text",
+      "required": true
+    },
+    "product_robot_cases_content_en": {
+      "type": "text",
+      "required": true
+    },
+    "product_robot_cases_detail": {
+      "type": "string",
+      "required": true
+    },
+    "product_robot_cases_detail_en": {
+      "type": "string",
+      "required": true
+    },
+    "product_robot_cases_detail_list": {
+      "type": "string",
+      "required": true
+    },
+    "product_robot_cases_detail_list_en": {
+      "type": "string",
+      "required": true
+    },
+    "product_robot_cases_detail_list2": {
+      "type": "string",
+      "required": true
+    },
+    "product_robot_cases_detail_list2_en": {
+      "type": "string",
+      "required": true
+    },
+    "product_robot_cases_detail2": {
+      "type": "string",
+      "required": true
+    },
+    "product_robot_cases_detail2_en": {
+      "type": "string",
+      "required": true
+    },
+    "product_robot_cases_detail2_list": {
+      "type": "string",
+      "required": true
+    },
+    "product_robot_cases_detail2_list_en": {
+      "type": "string",
+      "required": true
+    },
+    "product_robot_cases_detail2_list2": {
+      "type": "string",
+      "required": true
+    },
+    "product_robot_cases_detail2_list2_en": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

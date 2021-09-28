@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "product_platfrom_details",
+  "info": {
+    "name": "product_platfrom_detail"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_platfrom_detail": {
+      "type": "text",
+      "required": true
+    },
+    "product_platfrom_detail_en": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

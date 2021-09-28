@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "product_platfrom_headers",
+  "info": {
+    "name": "product_platfrom_header"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header_product_platfrom": {
+      "type": "string",
+      "required": true
+    },
+    "header_product_platfrom_en": {
+      "type": "string",
+      "required": true
+    },
+    "detail_product_platfrom": {
+      "type": "text",
+      "required": true
+    },
+    "detail_product_platfrom_en": {
+      "type": "text",
+      "required": true
+    },
+    "header_product_platfrom_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

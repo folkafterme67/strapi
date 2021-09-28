@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/solution-case-studies",
+      "handler": "solution-case-study.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/solution-case-studies/count",
+      "handler": "solution-case-study.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/solution-case-studies/:id",
+      "handler": "solution-case-study.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/solution-case-studies",
+      "handler": "solution-case-study.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/solution-case-studies/:id",
+      "handler": "solution-case-study.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/solution-case-studies/:id",
+      "handler": "solution-case-study.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

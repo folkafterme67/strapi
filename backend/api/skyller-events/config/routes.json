@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/skyller-events",
+      "handler": "skyller-events.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/skyller-events/count",
+      "handler": "skyller-events.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/skyller-events/:id",
+      "handler": "skyller-events.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/skyller-events",
+      "handler": "skyller-events.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/skyller-events/:id",
+      "handler": "skyller-events.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/skyller-events/:id",
+      "handler": "skyller-events.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

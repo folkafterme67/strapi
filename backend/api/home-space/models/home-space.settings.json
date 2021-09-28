@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_spaces",
+  "info": {
+    "name": "home_space",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "space_header": {
+      "type": "string",
+      "required": true
+    },
+    "space_header_en": {
+      "type": "string",
+      "required": true
+    },
+    "space_content": {
+      "type": "text",
+      "required": true
+    },
+    "space_content_en": {
+      "type": "text",
+      "required": true
+    },
+    "sapce_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

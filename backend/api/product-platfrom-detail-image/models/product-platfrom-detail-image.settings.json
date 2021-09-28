@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_platfrom_detail_images",
+  "info": {
+    "name": "product_platfrom_detail_image"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_platfrom_detail_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

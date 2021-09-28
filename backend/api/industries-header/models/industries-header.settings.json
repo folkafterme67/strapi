@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "industries_headers",
+  "info": {
+    "name": "industries_header"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "industries_header": {
+      "type": "string",
+      "required": true
+    },
+    "industries_header_en": {
+      "type": "string",
+      "required": true
+    },
+    "industries_content": {
+      "type": "string",
+      "required": true
+    },
+    "industries_content_en": {
+      "type": "string",
+      "required": true
+    },
+    "industries_detail": {
+      "type": "text",
+      "default": "industries_detail_en",
+      "required": true
+    },
+    "industries_detail_en": {
+      "type": "text",
+      "required": true
+    },
+    "industries_box_header": {
+      "type": "string",
+      "required": true
+    },
+    "industries_box_header_en": {
+      "type": "string"
+    },
+    "industries_box_detail": {
+      "type": "text",
+      "required": true
+    },
+    "industries_box_detail_en": {
+      "type": "text",
+      "required": true
+    },
+    "industries_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

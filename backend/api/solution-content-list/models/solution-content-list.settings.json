@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "solution_content_lists",
+  "info": {
+    "name": "solution_content_list"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "solution_content_list_header": {
+      "type": "string",
+      "required": true
+    },
+    "solution_content_list_header_en": {
+      "type": "string",
+      "required": true
+    },
+    "solution_content_list_icon": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "solution_content_list_detail": {
+      "type": "text",
+      "required": true
+    },
+    "solution_content_list_detail_en": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

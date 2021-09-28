@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-drone-deploys",
+      "handler": "product-drone-deploy.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-drone-deploys/count",
+      "handler": "product-drone-deploy.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-drone-deploys/:id",
+      "handler": "product-drone-deploy.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/product-drone-deploys",
+      "handler": "product-drone-deploy.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-drone-deploys/:id",
+      "handler": "product-drone-deploy.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-drone-deploys/:id",
+      "handler": "product-drone-deploy.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

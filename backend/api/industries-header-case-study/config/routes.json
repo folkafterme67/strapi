@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/industries-header-case-studies",
+      "handler": "industries-header-case-study.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/industries-header-case-studies/count",
+      "handler": "industries-header-case-study.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/industries-header-case-studies/:id",
+      "handler": "industries-header-case-study.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/industries-header-case-studies",
+      "handler": "industries-header-case-study.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/industries-header-case-studies/:id",
+      "handler": "industries-header-case-study.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/industries-header-case-studies/:id",
+      "handler": "industries-header-case-study.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

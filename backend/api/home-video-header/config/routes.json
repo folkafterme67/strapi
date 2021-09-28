@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/home-video-header",
+      "handler": "home-video-header.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/home-video-header",
+      "handler": "home-video-header.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/home-video-header",
+      "handler": "home-video-header.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

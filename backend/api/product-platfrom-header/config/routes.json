@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-platfrom-header",
+      "handler": "product-platfrom-header.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-platfrom-header",
+      "handler": "product-platfrom-header.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-platfrom-header",
+      "handler": "product-platfrom-header.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

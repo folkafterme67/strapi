@@ -1,0 +1,46 @@
+version: '3'
+services:
+  arv_strapi:
+    image: strapi/strapi
+    #build: ./backend
+    environment:
+      DATABASE_CLIENT: mysql
+      DATABASE_HOST: localhost
+      DATABASE_PORT: 3306
+      DATABASE_NAME: Skyller
+      DATABASE_USERNAME: strapi
+      DATABASE_PASSWORD: strapi
+      DATABASE_SSL: 'false'
+    volumes:
+      - ./backend:/srv/app
+    ports:
+      - '1337:1337'
+    depends_on:
+      - mysql
+  mysql:
+      image: mysql
+      command: mysqld --default-authentication-plugin=mysql_native_password
+      volumes:
+        - ./data:/var/lib/mysql
+      environment:
+        MYSQL_ROOT_PASSWORD: strapi
+        MYSQL_DATABASE: Skyller
+        MYSQL_USER: strapi
+        MYSQL_PASSWORD: strapi 
+
+      
+# version: '3'
+
+# services:
+#     ################################
+#     #   Setup node-api js container
+#     ################################
+#     arv_strapi:
+#         container_name: arv_strapi
+#         build: ./backend
+#         ports:
+#             - "1337:1337"
+#         tty: true
+#         volumes:
+#                 - ./backend:/usr/src/app
+#         restart: always

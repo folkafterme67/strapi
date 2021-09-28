@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_drone_analyzes",
+  "info": {
+    "name": "product_drone_analyze"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_drone_analyze_header": {
+      "type": "string",
+      "required": true
+    },
+    "product_drone_analyze_header_en": {
+      "type": "string",
+      "required": true
+    },
+    "product_drone_analyze_detail": {
+      "type": "text",
+      "required": true
+    },
+    "product_drone_analyze_detail_en": {
+      "type": "text",
+      "required": true
+    },
+    "product_drone_analyze_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
